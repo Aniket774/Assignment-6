@@ -1,0 +1,49 @@
+h1{
+    color: Red;
+    text-align: center;
+    font-size:60px;
+}
+p{
+    text-align: center;
+    color: rgb(211, 200, 211);
+    font-size: 25px;
+
+
+}
+button{
+    padding: 15px 30px;
+    background: #5c5c57;
+    color: #fff;
+    outline: none;
+    border: none ;
+    font-weight: 400;
+    text-transform:uppercase ;
+    border-radius: 50px ;
+    cursor:pointer;
+}
+body{
+    display: flex;
+    height: calc(100vh - 100px);
+    padding: 20px;
+    flex-direction: column;
+    background-color: black;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1535868463750-c78d9543614f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+button:hover {
+    background-color: #e1f815;
+}
+input{
+    display: flex;
+    align-self: center;
+    width: 20%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    border-style:hidden ;
+    border-top: #f7d5d5;
+}
